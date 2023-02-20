@@ -67,6 +67,11 @@
             </geometry>
             <material name="blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.04" radius="0.05" />/>
+            </geometry>
+        </collision>
     </link>
 
     <!-- RIGHT WHEEL LINK -->
@@ -85,6 +90,11 @@
             </geometry>
             <material name="blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.04" radius="0.05" />/>
+            </geometry>
+        </collision>
     </link>
     
     <!-- CASTER WHEEL LINK -->
@@ -102,6 +112,11 @@
             </geometry>
             <material name="black"/>
         </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.05" />
+            </geometry>
+        </collision>
     </link>
 
 
