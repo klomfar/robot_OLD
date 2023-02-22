@@ -86,7 +86,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="chassis">
+    <gazebo reference="left_wheel">
         <material>Gazebo/Blue</material>
     </gazebo>
 
@@ -116,7 +116,7 @@
         </xacro:inertial_sphere>
     </link>
 
-    <gazebo reference="chassis">
+    <gazebo reference="right_wheel">
         <material>Gazebo/Blue</material>
     </gazebo>
     
@@ -145,7 +145,7 @@
         </xacro:inertial_sphere>
     </link>
 
-    <gazebo reference="chassis">
+    <gazebo reference="caster_wheel">
         <material>Gazebo/Black</material>
     </gazebo>
 
